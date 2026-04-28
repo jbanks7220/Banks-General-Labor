@@ -1,9 +1,10 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Banks General Labor</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 
 <style>
@@ -14,6 +15,7 @@ body {
   color: #333;
 }
 
+/* HEADER */
 header {
   background: #111;
   color: white;
@@ -21,6 +23,7 @@ header {
   text-align: center;
 }
 
+/* HERO */
 .hero {
   padding: 60px 20px;
   text-align: center;
@@ -29,20 +32,36 @@ header {
 
 .hero h1 {
   font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
+.hero p {
+  color: #666;
+}
+
+/* SERVICES GRID */
 .services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
   padding: 40px;
+  max-width: 1100px;
+  margin: auto;
 }
 
+/* CARD */
 .card {
   background: white;
-  border-radius: 12px;
+  border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .card img {
@@ -51,29 +70,51 @@ header {
   object-fit: cover;
 }
 
+/* CARD CONTENT */
+.card-content {
+  padding: 15px 18px;
+  flex-grow: 1;
+}
+
 .card h3 {
-  padding: 10px;
+  margin: 0 0 10px;
 }
 
 .card p {
-  padding: 10px;
+  margin: 0;
+  line-height: 1.6;
+  color: #555;
 }
 
+/* BUTTON */
 .card button {
-  margin: 10px;
-  padding: 10px;
+  margin: 15px;
+  padding: 12px;
   border: none;
-  background: black;
+  background: #111;
   color: white;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease;
 }
 
+.card button:hover {
+  background: #333;
+}
+
+/* SECTION */
 .section {
   padding: 50px 20px;
   text-align: center;
+  background: white;
 }
 
+.section h2 {
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
 footer {
   text-align: center;
   padding: 20px;
@@ -98,46 +139,54 @@ footer {
 
   <div class="card">
     <img src="https://images.unsplash.com/photo-1598514983318-2f64f8f4796c">
-    <h3>Yard Work</h3>
-    <p>
-     Small yard: $40–$60<br>
-     Medium yard: $75–$125<br>
-     Large yard: $150+
-   </p>
-    <button onclick="book()">Book</button>
-    
+    <div class="card-content">
+      <h3>Yard Work</h3>
+      <p>
+        Small yard: $40–$60<br>
+        Medium yard: $75–$125<br>
+        Large yard: $150+
+      </p>
+    </div>
+    <button onclick="book()">Book Appointment</button>
   </div>
 
   <div class="card">
     <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952">
-    <h3>House Cleaning</h3>
-    <p>
-      Small home: $60–$100<br>
-      Medium: $100–$150<br>
-      Large: $150+
-   </p>
-    <button onclick="book()">Book</button>
-    
+    <div class="card-content">
+      <h3>House Cleaning</h3>
+      <p>
+        Small home: $60–$100<br>
+        Medium: $100–$150<br>
+        Large: $150+
+      </p>
+    </div>
+    <button onclick="book()">Book Appointment</button>
   </div>
 
   <div class="card">
     <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
-    <h3>Junk Removal</h3>
-    Small load: $80–$150<br>
-    Medium: $150–$300<br>
-    Large: $300+
-    <button onclick="book()">Book</button>
-    
+    <div class="card-content">
+      <h3>Junk Removal</h3>
+      <p>
+        Small load: $80–$150<br>
+        Medium: $150–$300<br>
+        Large: $300+
+      </p>
+    </div>
+    <button onclick="book()">Book Appointment</button>
   </div>
 
   <div class="card">
     <img src="https://images.unsplash.com/photo-1604147706283-d7119b5b822c">
-    <h3>Moving Help</h3>
-    Small home: $150–$200<br>
-      Medium: $200–$250<br>
-      Large: $300+
-    <button onclick="book()">Book</button>
-    
+    <div class="card-content">
+      <h3>Moving Help</h3>
+      <p>
+        Small home: $150–$200<br>
+        Medium: $200–$250<br>
+        Large: $300+
+      </p>
+    </div>
+    <button onclick="book()">Book Appointment</button>
   </div>
 
 </section>
@@ -145,7 +194,6 @@ footer {
 <section class="section">
   <h2>Schedule an Appointment</h2>
 
-  <!-- Calendly Embed -->
   <div class="calendly-inline-widget"
     data-url="https://calendly.com/salreeves00/new-meeting"
     style="min-width:320px;height:700px;">
