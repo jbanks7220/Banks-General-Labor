@@ -12,7 +12,7 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   background: #f7f7f7;
-  color: #333;
+  color: #333; 
 }
 
 /* HEADER */
@@ -138,7 +138,7 @@ footer {
 <section class="services">
 
   <div class="card">
-    <img src="https://unsplash.com/photos/a-man-cutting-a-tree-with-a-chainsaw-wC2cp8NbaTQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">
+    <img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80">
     <div class="card-content">
       <h3>Yard Work</h3>
       <p>
@@ -177,7 +177,7 @@ footer {
   </div>
 
   <div class="card">
-    <img src="https://unsplash.com/photos/man-in-blue-polo-shirt-sitting-on-chair-mYxzG5NwDNs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">
+    <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=800&q=80">
     <div class="card-content">
       <h3>Moving Help</h3>
       <p>
