@@ -138,7 +138,7 @@ footer {
 <section class="services">
 
   <div class="card">
-    <img src="https://images.unsplash.com/photo-1598514983318-2f64f8f4796c">
+    <img src="https://images.unsplash.com/photo-1597007066704-67bf2068d5b2">
     <div class="card-content">
       <h3>Yard Work</h3>
       <p>
@@ -177,7 +177,7 @@ footer {
   </div>
 
   <div class="card">
-    <img src="https://images.unsplash.com/photo-1604147706283-d7119b5b822c">
+    <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115">
     <div class="card-content">
       <h3>Moving Help</h3>
       <p>
