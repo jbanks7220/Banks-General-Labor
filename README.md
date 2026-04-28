@@ -138,7 +138,7 @@ footer {
 <section class="services">
 
   <div class="card">
-    <img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80">
+    <img src="https://source.unsplash.com/800x500/?lawn,mowing">
     <div class="card-content">
       <h3>Yard Work</h3>
       <p>
@@ -177,7 +177,7 @@ footer {
   </div>
 
   <div class="card">
-    <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=800&q=80">
+    <img src="https://source.unsplash.com/800x500/?moving,truck,loading,workers" alt="Two men loading a moving truck">
     <div class="card-content">
       <h3>Moving Help</h3>
       <p>
