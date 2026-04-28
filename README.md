@@ -95,29 +95,45 @@ footer {
   <div class="card">
     <img src="https://images.unsplash.com/photo-1598514983318-2f64f8f4796c">
     <h3>Yard Work</h3>
+    <p>
+     Small yard: $40–$60<br>
+     Medium yard: $75–$125<br>
+     Large yard: $150+
+   </p>
     <button onclick="book()">Book</button>
-    <button onclick="pay(5000)">Pay Deposit</button>
+    
   </div>
 
   <div class="card">
     <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952">
     <h3>House Cleaning</h3>
+    <p>
+      Small home: $60–$100<br>
+      Medium: $100–$150<br>
+      Large: $150+
+   </p>
     <button onclick="book()">Book</button>
-    <button onclick="pay(6000)">Pay Deposit</button>
+    
   </div>
 
   <div class="card">
     <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
     <h3>Junk Removal</h3>
+    Small load: $80–$150<br>
+    Medium: $150–$300<br>
+    Large: $300+
     <button onclick="book()">Book</button>
-    <button onclick="pay(8000)">Pay Deposit</button>
+    
   </div>
 
   <div class="card">
     <img src="https://images.unsplash.com/photo-1604147706283-d7119b5b822c">
     <h3>Moving Help</h3>
+    Small home: $150–$200<br>
+      Medium: $200–$250<br>
+      Large: $300+
     <button onclick="book()">Book</button>
-    <button onclick="pay(7000)">Pay Deposit</button>
+    
   </div>
 
 </section>
