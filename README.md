@@ -55,6 +55,10 @@ header {
   padding: 10px;
 }
 
+.card p {
+  padding: 10px;
+}
+
 .card button {
   margin: 10px;
   padding: 10px;
