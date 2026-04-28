@@ -127,7 +127,7 @@ footer {
 
   <!-- Calendly Embed -->
   <div class="calendly-inline-widget"
-    data-url="https://calendly.com/YOUR-USERNAME"
+    data-url="https://calendly.com/salreeves00/new-meeting"
     style="min-width:320px;height:700px;">
   </div>
 
