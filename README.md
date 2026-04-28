@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Local Services</title>
+<title>Banks General Labor</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 
 <style>
@@ -82,7 +82,7 @@ footer {
 <body>
 
 <header>
-  <h2>Your Local Service Business</h2>
+  <h2>Banks General Labor</h2>
 </header>
 
 <section class="hero">
@@ -135,7 +135,7 @@ footer {
 </section>
 
 <footer>
-  <p>© 2026 Your Business</p>
+  <p>© 2026 Banks General Labor</p>
 </footer>
 
 <script>
