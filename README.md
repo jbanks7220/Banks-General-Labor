@@ -144,7 +144,7 @@ function book() {
 }
 
 async function pay(amount) {
-  const res = await fetch("https://YOUR-RENDER-APP.onrender.com/create-checkout-session", {
+  const res = await fetch("https://Banks-labor-backend.onrender.com/create-checkout-session", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ amount })
