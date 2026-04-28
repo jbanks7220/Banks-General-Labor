@@ -82,7 +82,7 @@ footer {
 <body>
 
 <header>
-  <h2>Banks General Labor</h2>
+  <h2>Banks General Labor Services</h2>
 </header>
 
 <section class="hero">
